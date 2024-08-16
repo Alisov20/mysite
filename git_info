@@ -1,0 +1,20 @@
+1. создаем репозиторий на сайте github
+2. при необходимости создаем токен
+3. в visual code клонируем наш репозиторий по ссылке
+4. работаем с локальным репозиторием
+5. после этого пушим изменения на гитхаб
+
+* git status - проверка состояния репозитория
+    Untracked files:
+  (use "git add <file>..." to include in what will be committed) - есть измененные (новые) файлы
+
+* git add . - добавить все Untracked файлы в индекс
+    Changes to be committed:
+  (use "git rm --cached <file>..." to unstage) - изменения готовы к коммиту
+
+* git commit -m "comment to commit" - создание коммита
+
+* git push - залить изменения на сервер
+
+* git pull - скачать изменения с сервера
+
