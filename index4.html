@@ -1,10 +1,21 @@
-<!-- -->
 
 <!DOCTYPE html>
 <html>
 <html lang="ru">
   <head>
 <title>Форма регистрации</title>
+<style>
+    td, th {
+border: solid black;
+    }
+th{
+    color: blue;
+}
+    table{
+        border-collapse: collapse;
+        width: 60%;
+    }
+</style>
   </head>
    <body>
     <form action="#" method="get" enctype="application/x-www-form-urlencoded">
@@ -64,6 +75,55 @@
         <input type="reset" value="Сбросить" />
         </p>
 
+        <table style="border: solid 1px black;">
+            <thead>
+                <tr>
+                    <th>Фамилия</th>
+                    <th>Имя</th>
+                    <th>Отчество</th>
+                    <th>Телефон</th>
+                </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Иванов</td>
+                <td>Иван</td>
+                <td>Иванович</td>
+                <td>123123</td>
+            </tr>
+                
+            <tr>
+                <td>Петров</td>
+                <td>Петр</td>
+                <td>Петрович</td>
+                <td>321321</td>
+            </tr>
+
+            <tr>
+                <td>Семенов</td>
+                <td>Петр</td>
+                <td>Сергеевич</td>
+                <td>456456</td>
+            </tr>
+
+            <tr>
+                <td>Алисов</td>
+                <td>Юрий</td>
+                <td>Николаевич</td>
+                <td>654654</td>
+            </tr>
+
+            <tr>
+                <td>Николаев</td>
+                <td>Семен</td>
+                <td>Андреевич</td>
+                <td>111111</td>
+            </tr>
+
+
+        </tbody>
+
+        </table>
 
         
 
