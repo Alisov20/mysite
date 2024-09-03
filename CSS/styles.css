@@ -28,3 +28,54 @@ body{
 .container > p{
 color: red;
 }
+
+.input-form{
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 16px;
+    background: linear-gradient(to top, rgb(123, 20, 90), rgb(100, 90, 120), rgb(146, 100, 90));
+}
+
+.input-group{
+    margin-bottom: 20px;
+}
+
+
+.input-group label{
+display: block;
+    margin-bottom: 5px;
+    color: black;
+    font-weight: bold;
+}
+
+.input-group input{
+ width: 100%;
+    padding: 10px;
+    border: 1px solid #cff;
+    border-radius: 4px;
+    background: #ffff;
+    box-sizing: border-box;   
+
+}
+
+.input-form input:focus{
+    border-color: rgb(7, 41, 194);
+    outline: none;
+}
+
+.input-form button {
+width: 100%;
+padding: 10px;
+border: none;
+border-radius: 4px;
+background: rgb(9, 43, 233);
+color: #a7fff8;
+font-size: 16px;
+cursor: pointer;
+}
+
+.input-form button:hover{
+    background: rgba(126, 155, 236, 0.568);
+} 
