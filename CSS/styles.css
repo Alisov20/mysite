@@ -3,6 +3,17 @@ body{
     padding: 0;
 }
 
+.header{
+    background-color: rgb(18, 24, 24);
+    color: rgb(231, 9, 9);
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-style: center;
+    font-size: 30;
+    
+}
+
 .container{
     margin-left: 20px;
     margin-bottom: 30px;
@@ -17,16 +28,20 @@ body{
 
 
 .main-img{
-    width: 200px;
-    height: 200px;
+    width: 200%;
+    height: auto;
 }
 
 .main-text{
+    font-size: 15px;
 
 }
 
 .container > p{
 color: red;
+display: flex; /* Создаем гибкую структуру */
+  flex-direction: column; /* Располагаем элементы вертикально */
+  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
 }
 
 .input-form{
@@ -35,13 +50,21 @@ color: red;
     padding: 20px;
     border: 1px solid #ccc;
     border-radius: 16px;
-    background: linear-gradient(to top, rgb(123, 20, 90), rgb(100, 90, 120), rgb(146, 100, 90));
+    background: linear-gradient(to top, rgb(123, 20, 90), rgb(90, 120, 115), rgb(146, 100, 90));
 }
 
 .input-group{
     margin-bottom: 20px;
 }
 
+footer {
+    background-color: #2b2b2b;
+    color: white;
+    text-align: center;
+    padding-top: auto;
+    margin-bottom: auto;
+    font-size: 20px;
+}
 
 .input-group label{
 display: block;
