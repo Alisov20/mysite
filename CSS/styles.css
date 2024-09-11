@@ -10,7 +10,7 @@ body{
     padding-bottom: 20px;
     text-align: center;
     font-style: center;
-    font-size: 30;
+    font-size: 25px;
     
 }
 
@@ -34,14 +34,15 @@ body{
 
 .main-text{
     font-size: 15px;
+    color: aqua;
 
 }
 
 .container > p{
 color: red;
-display: flex; /* Создаем гибкую структуру */
-  flex-direction: column; /* Располагаем элементы вертикально */
-  min-height: 100vh; /* Минимальная высота равна высоте вьюпорта */
+display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .input-form{
