@@ -28,12 +28,9 @@ function getWidth(o){
 function getHeight(o) {
   alert(`Высота прямоугольника: ${Number(o.А[2]) - Number(o.D[2])}`);
 }
+
 function getArea(o) {
-  alert(
-    `Площадь равна: ${
-      (Number(o.B[0])) * (Number(o.A[2])) - Number(o.D[2])
-    }`
-  )
+  alert(`Площадь равна: ${(Number(o.B[0])) * (Number(o.A[2]))}`)
 }
 
 function getPerimeter(o){
