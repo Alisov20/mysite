@@ -30,7 +30,7 @@ function getHeight(o) {
 }
 
 function getArea(o) {
-  alert(`Площадь равна: ${(Number(o.B[0])) * (Number(o.A[2]))}`)
+  alert(`Площадь равна: ${(Number(o.B[0])) * (Number(o.A[2]))}`) 
 }
 
 function getPerimeter(o){
