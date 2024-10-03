@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <title>mypage</title>
+  </head>
+
+  <body>
+    Изучение JavaScript
+  </body>
+<script>
+
+//function hello(name){
+//console.log(`Hello, ${name}`)
+   
+//hello("Ivan")
+
+function info(name, age, city){
+    console.log(`Hello, my name is ${name}. I am ${age} years old. I am from ${city}`)
+    }
+
+    info("Ivan", 17, "Moscow")
+
+    function printPerson(person){
+        console.log("Name:", person[0]);
+        console.log("Age:", person[1]);
+        console.log("Email:", person[2]);
+    }
+
+    function printPersonSpread(name, age, Email){
+        console.log("Name:", name);
+        console.log("Age:", age);
+        console.log("Email:", Email);
+    }
+
+
+    //const Ivan = ["Ivan", 28, "Ivan28@gmail.com"]
+   // printPerson(Ivan)
+
+   // printPersonSpread(...Ivan)
+
+    function sumAnyElements(a,b){
+        console.log(`a = ${a}`)
+        console.log(`a = ${b}`)
+
+        let result = 0;
+        for (const n of arguments){
+            result += n;
+        }
+        console.log("Сумма чисел: ", result)
+    }
+
+    sumAnyElements(5)
+    sumAnyElements(5,4)
+    sumAnyElements(5,4,1)
+    sumAnyElements(5,5,5,5,)
+    sumAnyElements(5,5,5,5,5,5,5)
+
+    function getName(name){
+        const newName = `${name}!`
+        return newName
+    }
+    
+    let newName = getName("Ivan")
+    console.log(newName)
+
+    function getSum(a,b){
+        const result = a+b 
+        return result
+}
+    let num = getSum(3,4)
+    console.log(num)
+    console.log()
+
+
+
+
+
+    function getSubtract(a,b){
+        const result = a-b 
+        return result
+    }
+
+    function operation(a, b, func){
+        const result = func(a, b)
+        return result
+    }
+
+    console.log("Сумма чисел")
+    let res1 = operation(3, 4, getSum)
+    console.log(res1)
+
+    console.log("Разность чисел")
+    let res2 = operation(3, 4, getSubtract)
+    console.log(res2)
+
+
+
+function hello(){
+    console.log(`Hello`)
+}
+
+hello()
+
+const hi = (msg) => console.log(msg)
+hi("Message")
+
+const newSum = (a,b) =>  a + b
+result = newSum(4,6)
+console.log(result)
+
+const square = n => {
+const result = n*n
+return result
+}
+
+
+</script>
+
+
+</html>
